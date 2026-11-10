@@ -2,12 +2,5 @@ name = "flowerscrew"
 pages_build_output_dir = "."
 compatibility_date = "2024-09-23"
 
-# Отдельные база и KV Flowers Crew (созданы в Cloudflare).
-[[d1_databases]]
-binding = "DB"
-database_name = "flowerscrew"
-database_id = "18c30f89-b8d5-4024-b86d-c8ed47ca24a9"
-
-[[kv_namespaces]]
-binding = "CARDS"
-id = "ea91aea634ec4cf08e0742b94721ab57"
+# Привязки DB (D1) и CARDS (KV) задаются в панели Cloudflare:
+# Pages -> flowerscrew -> Settings -> Bindings.
